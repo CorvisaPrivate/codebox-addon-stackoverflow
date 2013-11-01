@@ -1,4 +1,4 @@
-codebox-addon-stackoverflow
-===========================
+Stackoverflow (CodeBox add-on)
+========================
 
-Ask and search for stackoverflow questions directly from your workspace.
+Search for Stackoverflow questions directly from your Codebox (https://github.com/FriendCode/codebox).

@@ -1,0 +1,16 @@
+{
+    "name": "stackoverflow",
+    "version": "0.0.1",
+    "title": "Stackoverflow",
+    "description": "Ask and search for stackoverflow questions directly from your workspace.",
+    "homepage": "https://github.com/FriendCode/codebox-addon-stackoverflow",
+    "license": "Apache",
+    "author": {
+        "name": "Samy Pessé",
+        "email": "samypesse@gmaiL.com",
+        "url": "http://samypesse.fr"
+    },
+    "client": {
+        "main": "client"
+    }
+}
