@@ -1,8 +1,8 @@
 define([], function() {
-    var $ = require("jQuery");
-    var hr = require("hr/hr");
-    var box = require("core/box");
-    var search = require("core/search");
+    var $ = codebox.require("jQuery");
+    var hr = codebox.require("hr/hr");
+    var box = codebox.require("core/box");
+    var search = codebox.require("core/search");
 
     //Add codebox search handler
     search.handler({
