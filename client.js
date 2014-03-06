@@ -12,8 +12,11 @@ define([], function() {
         return hr.Requests.getJSON("https://api.stackexchange.com/2.1/search?order=desc&sort=votes&intitle="+q+"&site=stackoverflow&callback=?").then(function(data) {
             return _.map(data.items, function(result) {
                 return {
-                    "text": result.title,
-                    "callback": _.bind(function() {
+                    "title": $("<div>").html(result.title).text(),
+                    "icons": {
+                        'search': "stack-overflow"
+                    },
+                    "action": _.bind(function() {
                         window.open(result.link);
                     }, this)
                 };
