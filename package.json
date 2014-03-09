@@ -1,6 +1,6 @@
 {
     "name": "stackoverflow",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "title": "Stackoverflow",
     "description": "Ask and search for stackoverflow questions directly from your workspace.",
     "homepage": "https://github.com/FriendCode/codebox-addon-stackoverflow",
